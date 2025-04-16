@@ -1,0 +1,20 @@
+# Rust build output
+/target
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Backup files
+*.rs.bk
+
+# By-products of cargo
+**/*.rs.bk
+Cargo.lock
+
+# Rustup and cache directories
+.rustc_info.json
+CACHEDIR.TAG
